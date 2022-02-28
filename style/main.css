@@ -1,0 +1,101 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Livvic';
+}
+
+/* livvic-regular - latin */
+@font-face {
+  font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 400;
+  src: 
+       url('../fonts/livvic-v11-latin-regular.woff2') format('woff2'),
+       url('../fonts/livvic-v11-latin-regular.woff') format('woff');
+}
+/* livvic-600 - latin */
+@font-face {
+  font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 600;
+  src: 
+       url('../fonts/livvic-v11-latin-600.woff2') format('woff2'), 
+       url('../fonts/livvic-v11-latin-600.woff') format('woff');
+}
+h4, p {
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+}
+h4 {
+  font-size: 18px;
+  line-height: 28px;
+  color: #79C8C7;
+  margin-top: 16px;
+}
+p {
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+.container {
+  background-color: #004047;
+}
+.content {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.background-img {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: -50px;
+  top: 0px;
+}
+.page-heading {
+  font-size: 48px;
+  line-height: 48px;
+  margin-top: 140px;
+  color: white;
+  text-align: center;
+}
+.person-list {
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.person-list-item {
+  width: 350px;
+  height: 253px;
+  margin-top: 76px;
+  overflow: hidden;
+  background-color: #012F34;;
+}
+.p-list-element, .list-element2 {
+  width: 350px;
+  height: 253px;
+  padding-top: 32px;
+  padding-right: 24px;
+  padding-bottom: 56px;
+  padding-left: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.p-list-element:hover {
+  transform: translateY(-253px);
+  transition: all 1s ease;
+}
+.list-element2 {
+  background-color: #002529;
+}
