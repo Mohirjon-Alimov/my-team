@@ -204,5 +204,12 @@ body {
   width: 254px;
   text-align: center;
   color: #fff;
-
+}
+.plus-btn {
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  background-color: #F67E7E;
+  border-radius: 100%;
+  bottom: -28px;
 }
