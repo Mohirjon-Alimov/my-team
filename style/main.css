@@ -120,9 +120,17 @@ body {
   right: -100px;
   top: 317px;
 }
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .my-team {
   background-color: #004047;
   padding-top: 158px;
+  background-image: url(../img/background-img2.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .team-directors {
   margin: 0;
@@ -149,6 +157,7 @@ body {
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 150px;
 }
 .person-list {
   width: 350px;
@@ -205,11 +214,31 @@ body {
   text-align: center;
   color: #fff;
 }
-.plus-btn {
-  width: 56px;
-  height: 56px;
-  position: absolute;
-  background-color: #F67E7E;
-  border-radius: 100%;
-  bottom: -28px;
+
+/*PLACE FOR PLUS BTN */
+
+.our-clients {
+  padding-top: 144px;
+  padding-bottom: 156px;
+  background-image: url(../img/bgc-img.svg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #012F34;
+}
+.clients-heading {
+  font-size: 48px;
+  line-height: 48px;
+  color: #fff;
+}
+.client-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.client-list-item ~.client-list-item {
+ margin-left: 79px;
 }
