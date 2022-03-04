@@ -366,14 +366,125 @@ footer {
 
 
 .home-page-header {
+
   background-color: #014E56;
+}
+.container1 {
+  width: 1440px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #014E56;
+  background-image: url(../img/background-img3.svg), url(../img/background-img4.svg) ;
+  background-position: left center, right bottom;
+  background-repeat: no-repeat;
+}
+.page-hero {
+  width: 1110px;
+  padding-top: 77px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 130px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-heading {
   width: 635px;
+  display: inline-block;
   font-size: 100px;
   line-height: 100px;
   color: #fff;
 }
 .hero-heading span {
   color: #F67E7E;
+}
+.hero-text {
+  width: 445px;
+  height: 122px;
+  margin: 0;
+  padding: 0;
+  margin-top: 88px;
+  vertical-align: bottom;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+}
+.hero-text::before {
+  content: " ";
+  width: 50px;
+  height: 4px;
+  position: absolute;
+  top: 250px;
+  background-color: #79C8C7;
+}
+.section1 {
+  background-color: #012F34;
+}
+.container2 {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #012F34;
+}
+.container2-inner {
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 198px;
+  display: flex;
+  justify-content: space-between;
+}
+.container2-heading {
+  width: 445px;
+  height: 145px;
+  font-size: 48px;
+  line-height: 48px;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+.container2-heading::before {
+  position: absolute;
+  content: " ";
+  width: 50px;
+  height: 4px;
+  top: 840px;
+  background-color: #F67E7E;
+}
+.about-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+
+}
+.about-list-item {
+  display: flex;
+  width: 540px;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.about-list-content {
+  display: inline-block;
+  width: 445px;
+
+}
+.about-list-heading {
+  display: inline-block;
+  color: #F67E7E;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0;
+  padding: 0;
+}
+.about-list-cintent {
+  display: inline-block;
+  color: #fff;
+  font-size: 15px;
+  line-height: 25px;
+  opacity: 0.8;
 }
