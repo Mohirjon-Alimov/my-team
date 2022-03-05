@@ -34,6 +34,7 @@ body {
   margin-right: auto;
   display: flex;
   justify-content: space-between;
+  background-color: #014E56;
   align-items: center;
 }
 .header-inner2 {
@@ -557,4 +558,22 @@ footer {
   background-image: url(../img/bgc-img2.svg);
   background-position: bottom left;
   background-repeat: no-repeat;
+}
+
+
+
+/* CONTACT PAGE */
+
+
+
+.contact-page-header {
+  background-color: #014E56;
+  padding-top: 77px;
+}
+.contact-box {
+  width: 1440px;
+  padding: 0 165px;
+}
+.contact-page {
+  background-color: #014E56;
 }
